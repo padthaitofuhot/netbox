@@ -113,6 +113,7 @@ async function bundleStyles() {
       'netbox': 'styles/netbox.scss',
       rack_elevation: 'styles/svg/rack_elevation.scss',
       cable_trace: 'styles/svg/cable_trace.scss',
+      'rest-api': 'styles/rest_api.scss',
     };
     const pluginOptions = { outputStyle: 'compressed' };
     // Allow cache disabling.

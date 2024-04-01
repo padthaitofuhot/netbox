@@ -4,27 +4,7 @@
 
 {% block bootstrap_theme %}
   <link rel="stylesheet" type="text/css" href="{% static "rest_framework/css/bootstrap.min.css" %}"/>
-  <style>
-    .breadcrumb {
-      background-color: #fff;
-    }
-    .btn-primary {
-      background-color: #17a2b8;
-      border: none;
-    }
-    .navbar-default {
-      background-color: #fff;
-    }
-    .navbar-default .navbar-text {
-      color: #182433;
-    }
-    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-      padding: 12px 0 12px 0;
-    }
-    .prettyprint {
-      background-color: #f6f8fb;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="{% static "rest-api.css" %}"/>
 {% endblock %}
 
 {% block bootstrap_navbar_variant %}navbar-default{% endblock %}
